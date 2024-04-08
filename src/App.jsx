@@ -82,8 +82,7 @@ function App() {
   }
 
   const handlePoint = () => {
-    displayValue.includes('.') || 
-                 symbolCheck(lastValue) ||
+                     symbolCheck(lastValue) ||
                       lastValue === ')' ||
                       lastValue === '(' ? 
                                   setDisplayValue((prev) => prev) : 
